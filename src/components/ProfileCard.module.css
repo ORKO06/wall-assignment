@@ -1,0 +1,109 @@
+.ProfileCardContainer{
+    min-width:292px;
+    width:292px;
+    height: max-content;
+    background-color: #111;
+    padding: 16px 16px 24px;
+    display: flex;
+    gap:32px;
+    border-radius: 16px;
+    flex-direction: column;
+    color: #fff;
+}
+.ProfileUserInfo{
+    display: flex;
+    gap:12px
+}
+
+.ProfileUserInfoLeft{
+    display: block;
+}
+
+.ProfileUserInfoAvatar{
+    border: 2px solid #ffc148;
+    border-radius: 50%;
+}
+.ProfileUserInfoLevel{
+    color:#FFC148;
+    background: rgba(248, 169, 16, 0.1);
+    border-radius: 44px;
+    padding: 8px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 4px;
+    width: max-content;
+}
+.ProfileUserNameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ProfileUserName{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color:#a2a2a2;
+}
+
+.ProfileUserNameInfo{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 32px;
+    color: #fff;   
+}
+
+.ProfileUserTwitter{
+    background: #1A1A1A;
+    border-radius: 24px;
+    align-items: center;
+    padding: 4px 8px;
+    display: flex;
+    gap:8px;
+}
+
+.ProfileUserDetail{
+    display: flex;
+    gap:16px;
+}
+
+.ProfileUserBio{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #A2A2A2;
+}
+
+.ProfileUserCommunitiesTitle{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: #A2A2A2;
+margin-bottom: 8px;
+}
+
+.ProfileUserCommunitiesContainer{
+    display: flex;
+    gap: 8px;
+}
+
+.ProfileUserInterest{
+    display: flex;
+    gap:8px;
+    flex-wrap: wrap;
+}
+
+.ProfileUserButton{
+    padding: 12px 37px;
+    border: 1px solid #A2A2A2;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FAFAFA;
+}

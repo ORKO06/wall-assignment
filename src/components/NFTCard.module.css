@@ -1,0 +1,79 @@
+.NFTCardContainer{
+    width: 201px;
+    background: #111111;
+    padding: 4px 4px 8px;
+    border-radius: 8px;
+}
+
+.NFTCardName{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FAFAFA;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+
+.NFTCardDet{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 4px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+
+
+
+.NFTCardNameAndPrice{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.NFTCardStatus{
+    letter-spacing: 0.05em;
+    color: #A2A2A2;   
+}
+
+.NFTCardPrice{
+    color:#FAFAFA;
+}
+
+
+.HighlighCardTime{
+    font-weight: 400;
+    color: #A2A2A2; 
+}
+
+.HighlighCardXP{
+    color: #19ED7B;
+}
+
+.NFTImageContainer{
+    position: relative;
+    text-align: center;
+    width: 193px;
+    height: 193px;
+}
+
+.NFTTime{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    border-radius: 31px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    padding: 1px 6px;
+}

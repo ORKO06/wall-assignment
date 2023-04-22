@@ -1,0 +1,19 @@
+.ChipHighlightContainer{
+    padding: 6px 10px;
+    border: 1px solid #FFC148;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFC148;
+}
+
+.ChipContainer{
+    padding: 6px 10px;
+    border: 1px solid #1a1a1a;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}

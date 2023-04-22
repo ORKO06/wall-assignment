@@ -1,0 +1,82 @@
+.HighlightCardContainer{
+    position: relative;
+    padding: 10px;
+    background: #111111;
+    border-radius: 16px;
+    color: white;
+    width: 201px;
+    overflow: hidden;
+}
+
+.backgroundCircle{    
+    position: absolute;
+    background: rgba(37, 181, 213, 0.1);
+    filter: blur(25px);
+    width: 174px;
+    height: 174px;
+    transform: translateX(-58px) translateY(-69px);
+}
+
+
+.HighlightCardDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+.HighlighCardImageAndNameContainer{
+    display: flex;
+    gap:12px;
+    overflow: hidden;
+}
+
+.HighlightCardName{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FAFAFA;
+}
+
+.HighlightCardStatus{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4BDFFF;
+    padding-left: 8px;
+}
+
+.HighlightCardDet{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+.HighlightCardNameAndPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.HighlightCardName{
+    letter-spacing: 0.05em;
+    color: #A2A2A2;   
+}
+
+.HighlightCardPrice{
+    color:#FAFAFA;
+    display: flex;
+    gap:4px;
+}
+
+.HighlightCardTime{
+    font-weight: 400;
+    color: #A2A2A2; 
+}
+
+.HighlightCardXP{
+    color: #19ED7B;
+}
