@@ -27,14 +27,14 @@ const highlightData = [
     name: ' ENS Linked',
     status: 'ENS Linked',
     user: 'dingaling.eth',
-    image: highlight1,
+    image: highlight4,
     color: '#4BDFFF',
   },
   {
     name: 'Best Flip ',
     status: 'Sold',
     user: 'CryptoPunk #2131',
-    image: highlight2,
+    image: highlight5,
     color: '#FFC148',
   },
   {
@@ -48,14 +48,14 @@ const highlightData = [
     name: ' First NFT bought',
     status: 'Bought',
     user: 'BAYC #7925',
-    image: highlight4,
+    image: highlight2,
     color: '#4BDFFF',
   },
   {
     name: ' Paper Handed',
     status: 'Sold',
     user: 'Moonbird #7866',
-    image: highlight5,
+    image: highlight1,
     color: '#44FFC8',
   },
 ];
@@ -71,7 +71,7 @@ export default function Home() {
             <HighlightCard key={dat.user} {...dat} />
           ))}
         </div>
-        <div className={style.HighlightCardsContainer}>
+        <div className={style.NFTCardsContainer}>
           {nftData.map((dat) => (
             <NFTCard key={dat.user} user={dat.user} image={dat.image} />
           ))}

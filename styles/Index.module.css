@@ -3,6 +3,7 @@
     gap:55px;
     max-width: 1420px;
     margin: auto;
+    margin-top: 100px;
 }
 
 @media screen and (max-width: 600px) {
@@ -16,10 +17,10 @@
 
 .HighlightSection{
     font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-color: #A2A2A2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A2A2A2;
     display: flex;
     flex-direction: column;
     gap:32px
@@ -29,4 +30,11 @@ color: #A2A2A2;
     display: flex;
     flex-wrap: wrap;
     gap:16px
+}
+
+.NFTCardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    margin-top: 29px;
 }
